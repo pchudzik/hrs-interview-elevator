@@ -1,0 +1,16 @@
+plugins {
+    id "java"
+    id "groovy"
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.2-groovy-2.5"
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
